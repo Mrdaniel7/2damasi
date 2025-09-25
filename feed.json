@@ -1,0 +1,13 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "2damasi",
+    "description": "",
+    "home_page_url": "https://github.com/Mrdaniel7/2damasi",
+    "feed_url": "https://github.com/Mrdaniel7/2damasi/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Daniel Terroba Alcalá"
+    },
+    "items": [
+    ]
+}
