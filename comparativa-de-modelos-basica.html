@@ -1,0 +1,84 @@
+<!DOCTYPE html><html lang="en-gb"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"><title>Comparativa de modelos Basica - 2damasi</title><meta name="description" content="Comparativa de rendimiento en diferentes configuraciones de energía. Configuración estándar de consumo limitado. Configuración de máximo rendimiento desbloqueado. Como conclusión en esta comparativa,&hellip;"><meta name="generator" content="Publii Open-Source CMS for Static Site"><link rel="canonical" href="./comparativa-de-modelos-basica.html"><link rel="stylesheet" href="./assets/css/fontawesome-all.min.css?v=85514f933f9e0b82460af63f1a403fa5"><link rel="stylesheet" href="./assets/css/style.css?v=a43d11e6c8e1828dd0b983b73b3cdb13"><noscript><link rel="stylesheet" href="./assets/css/noscript.css?v=efa867a99f5064d6729e4dc2008ad50b"></noscript><script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"./comparativa-de-modelos-basica.html"},"headline":"Comparativa de modelos Basica","datePublished":"2025-12-07T11:36+01:00","dateModified":"2025-12-07T11:36+01:00","description":"Comparativa de rendimiento en diferentes configuraciones de energía. Configuración estándar de consumo limitado. Configuración de máximo rendimiento desbloqueado. Como conclusión en esta comparativa,&hellip;","author":{"@type":"Person","name":"Daniel Terroba Alcalá","url":"./authors/daniel-terroba-alcala/"},"publisher":{"@type":"Organization","name":"Daniel Terroba Alcalá"}}</script><style>#wrapper > .bg {
+               background-image: url(./assets/images/overlay.png), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url();
+           }</style><noscript><style>img[loading] {
+                    opacity: 1;
+                }</style></noscript></head><body class="is-preload page-template"><div id="wrapper"><header id="header"><a class="logo" href="./">2damasi</a></header><nav id="nav"><ul class="links"><li><a href="./configuracion-raspberry-pi-y-mac-mini.html" target="_self">RaspBerry y Mac mini</a></li><li><a href="./configuracion-inicial-de-la-jetson-nano.html" target="_self">Configuración inicial de la jetson nano</a></li><li class="active"><a href="./comparativa-de-modelos-basica.html" target="_self">Comparador de ias Basico</a></li></ul></nav><main id="main"><article class="post"><header class="major"><h1>Comparativa de modelos Basica</h1><p class="post__inner"></p></header><div class="post__inner post__entry"><p> </p><p> </p><h1>1. Modo SUPER MAX vs 25W</h1><p>Comparativa de rendimiento en diferentes configuraciones de energía.</p><h2>1.1. 25w</h2><p>Configuración estándar de consumo limitado.</p><figure class="post__image"><img src="./media/posts/7/25w.jpg" alt="Prueba a 25W" width="1599" height="899" loading="lazy" sizes="(max-width: 48em) 100vw, 768px" srcset="./media/posts/7/responsive/25w-xs.jpg 300w, ./media/posts/7/responsive/25w-sm.jpg 480w, ./media/posts/7/responsive/25w-md.jpg 768w, ./media/posts/7/responsive/25w-lg.jpg 1024w, ./media/posts/7/responsive/25w-xl.jpg 1360w, ./media/posts/7/responsive/25w-2xl.jpg 1600w"></figure><h2>1.2. MAXN SUPER</h2><p>Configuración de máximo rendimiento desbloqueado.</p><figure class="post__image"><img style="outline: rgba(13, 139, 242, 0.55) solid 3px !important;" src="./media/posts/7/max-super.jpg" alt="Prueba MAXN SUPER" width="1599" height="899" loading="lazy" sizes="(max-width: 48em) 100vw, 768px" srcset="./media/posts/7/responsive/max-super-xs.jpg 300w, ./media/posts/7/responsive/max-super-sm.jpg 480w, ./media/posts/7/responsive/max-super-md.jpg 768w, ./media/posts/7/responsive/max-super-lg.jpg 1024w, ./media/posts/7/responsive/max-super-xl.jpg 1360w, ./media/posts/7/responsive/max-super-2xl.jpg 1600w"></figure><p>Como conclusión en esta comparativa, se puede observar un cambio significativo en el rendimiento térmico y la estabilidad de frecuencias bajo carga sostenida.</p><hr><p> </p><p> </p><h1>2. IBM Granite 4-H-Tiny vs Qwen3-VL-4B</h1><p>A continuación, analizamos el rendimiento de dos modelos de lenguaje locales ejecutados en el mismo hardware. El objetivo es determinar cuál es más eficiente y fiable para tareas de razonamiento lógico.</p><div class="ia-comparison-container"><div class="ia-card"><h3>📊 Análisis Cuantitativo</h3><p>Los datos muestran una clara diferencia en eficiencia y estabilidad técnica.</p><div class="ia-title-sub">1. Velocidad de Generación (Tokens/seg)</div><div class="ia-chart-wrapper"><canvas id="speedChart"></canvas></div><div class="ia-title-sub">2. Estabilidad: Tokens Totales Generados (Menos es mejor)</div><p style="font-size: 0.9em; color: #666; text-align: center;">Nota: Las barras rojas altas indican bucles de error en Qwen.</p><div class="ia-chart-wrapper"><canvas id="tokensChart"></canvas></div><div class="ia-title-sub">3. Latencia: Tiempo al Primer Token (segundos)</div><div class="ia-chart-wrapper"><canvas id="latencyChart"></canvas></div></div><div class="ia-card"><h3>🧠 Análisis Cualitativo</h3><div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;"><div><h4 style="color: #3b82f6; margin-top: 0;">🔵 IBM Granite (Tiny)</h4><ul class="ia-list"><li class="ia-list-item ia-granite-border"><strong>Estabilidad:</strong> <span class="ia-tag tag-success">Excelente</span><br>Respondió a todas las pruebas de forma concisa y sin errores técnicos.</li><li class="ia-list-item ia-granite-border"><strong>Comportamiento:</strong><br>Va directo al grano. Utiliza muy pocos recursos para dar la respuesta correcta.</li><li class="ia-list-item ia-granite-border"><strong>Latencia:</strong><br>Respuesta instantánea (0.2s - 0.3s), ideal para uso en tiempo real.</li></ul></div><div><h4 style="color: #ef4444; margin-top: 0;">🔴 Qwen 3 VL (4B)</h4><ul class="ia-list"><li class="ia-list-item ia-qwen-border"><strong>Estabilidad:</strong> <span class="ia-tag tag-danger">Crítica</span><br>Entró en "bucles infinitos" en 2 de las 3 pruebas, generando texto repetitivo sin sentido.</li><li class="ia-list-item ia-qwen-border"><strong>Comportamiento:</strong><br>Inestable en esta configuración. Comienza bien pero pierde el hilo y no sabe cuándo detenerse.</li><li class="ia-list-item ia-qwen-border"><strong>Latencia:</strong><br>Lento al arrancar, llegando a tardar más de 6 segundos en comenzar tras el fallo.</li></ul></div></div></div><div class="ia-verdict"><h3>🏆 Veredicto Final: IBM Granite 4-H-Tiny</h3><p>Aunque Qwen es un modelo teóricamente más potente, en estas pruebas resultó <strong>inutilizable</strong> debido a graves alucinaciones de repetición ("loops").</p><p><strong>Granite gana por goleada</strong> gracias a su fiabilidad quirúrgica: es rápido, ligero y, lo más importante, sabe cuándo dejar de hablar.</p></div></div><p><script>(function() {
+    // Función principal que inicializa las gráficas
+    function initCharts() {
+        console.log('Iniciando gráficas...');
+        const commonOpts = {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: { legend: { position: 'top' } },
+            scales: { y: { beginAtZero: true } }
+        };
+
+        const labels = ['Mapa', 'Agujero', 'Eco (Fallo)'];
+
+        if(document.getElementById('speedChart')) {
+            new Chart(document.getElementById('speedChart'), {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [
+                        { label: 'Granite (t/s)', data: [44.48, 45.70, 44.79], backgroundColor: 'rgba(59, 130, 246, 0.7)' },
+                        { label: 'Qwen (t/s)', data: [39.18, 35.22, 33.09], backgroundColor: 'rgba(239, 68, 68, 0.7)' }
+                    ]
+                },
+                options: commonOpts
+            });
+        }
+
+        if(document.getElementById('tokensChart')) {
+            new Chart(document.getElementById('tokensChart'), {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [
+                        { label: 'Granite (Tokens)', data: [49, 32, 50], backgroundColor: 'rgba(59, 130, 246, 0.7)' },
+                        { label: 'Qwen (Tokens)', data: [520, 1372, 626], backgroundColor: 'rgba(239, 68, 68, 0.7)' }
+                    ]
+                },
+                options: {
+                    ...commonOpts,
+                    scales: { y: { type: 'logarithmic', title: {display:true, text:'Escala Logarítmica'} } }
+                }
+            });
+        }
+
+        if(document.getElementById('latencyChart')) {
+            new Chart(document.getElementById('latencyChart'), {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [
+                        { label: 'Granite (s)', data: [0.24, 0.38, 0.20], borderColor: '#3b82f6', tension: 0.3 },
+                        { label: 'Qwen (s)', data: [0.58, 2.46, 6.18], borderColor: '#ef4444', tension: 0.3 }
+                    ]
+                },
+                options: commonOpts
+            });
+        }
+    }
+
+    // Comprobador de carga de librería
+    function loadAndRun() {
+        if (typeof Chart === 'undefined') {
+            // Si Chart.js no existe, lo inyectamos manualmente
+            var script = document.createElement('script');
+            script.src = 'https://cdn.jsdelivr.net/npm/chart.js';
+            script.onload = initCharts;
+            document.head.appendChild(script);
+        } else {
+            // Si ya existe, ejecutamos directamente
+            initCharts();
+        }
+    }
+
+    // Ejecutar cuando el DOM esté listo o si ya ha cargado
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', loadAndRun);
+    } else {
+        loadAndRun();
+    }
+})();</script></p></div></article></main><footer id="copyright"><p>© Daniel Terroba Alcala<br><br></p></footer></div><script src="./assets/js/jquery.min.js?v=c9771cc3e90e18f5336eedbd0fffb2cf"></script><script src="./assets/js/jquery.scrollex.min.js?v=f89065e3d988006af9791b44561d7c90"></script><script src="./assets/js/jquery.scrolly.min.js?v=1ed5a78bde1476875a40f6b9ff44fc14"></script><script src="./assets/js/browser.min.js?v=c07298dd19048a8a69ad97e754dfe8d0"></script><script src="./assets/js/breakpoints.min.js?v=81a479eb099e3b187613943b085923b8"></script><script src="./assets/js/util.min.js?v=4201a626f8c9b614a663b3a1d7d82615"></script><script src="./assets/js/main.min.js?v=56233c354bd814758be8bff42f7e13a5"></script><script>/*<![CDATA[*/var images=document.querySelectorAll("img[loading]");for(var i=0;i<images.length;i++){if(images[i].complete){images[i].classList.add("is-loaded")}else{images[i].addEventListener("load",function(){this.classList.add("is-loaded")},false)}};/*]]>*/</script></body></html>
